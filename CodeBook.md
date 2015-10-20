@@ -13,22 +13,22 @@ is to prepare a tidy dataset that can be used for analysis.
 
 ##Study design and data processing
 *For specific information regarding the base study please refer to the following link
-**http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+* http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-* Data processing performed by run_analysis.R:
-** Download the samsung zipped data file if it is not present
-** Unzip the file if the data directory does not exist
-** Read in the test data set
-** Add the column names, descriptive activity names and subject numbers to the dataset
-** Delete unsed objects
-** Read in the train dataset
-** Add the column names, descriptive activity names and subject numbers to the dataset
-** Delete unsed objects
-** Combine the train and test data
-** subset the mean, stdev, activity and subject columns from the dataset
-** Summaries the subset by calculating the mean of the means and stdev
-***It should be noted that it is not proper to calculate the mean of stdev as it is done here
-**
+*Data processing performed by run_analysis.R:
+* Download the samsung zipped data file if it is not present
+* Unzip the file if the data directory does not exist
+* Read in the test data set
+* Add the column names, descriptive activity names and subject numbers to the dataset
+* Delete unsed objects
+* Read in the train dataset
+* Add the column names, descriptive activity names and subject numbers to the dataset
+* Delete unsed objects
+* Combine the train and test data
+* subset the mean, stdev, activity and subject columns from the dataset
+* Summaries the subset by calculating the mean of the means and stdev
+*  It should be noted that it is not proper to calculate the mean of stdev as it is done here
+*
 
 ###Collection of the raw data
 The data transformation by the runAnalysis.R script was obtained from:
