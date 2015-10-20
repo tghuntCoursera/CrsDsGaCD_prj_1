@@ -15,21 +15,6 @@ is to prepare a tidy dataset that can be used for analysis.
 * For specific information regarding the base study please refer to the following link:
 *  http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-* Data processing performed by run_analysis.R:
-*  Download the samsung zipped data file if it is not present
-*  Unzip the file if the data directory does not exist
-*  Read in the test data set
-*  Add the column names, descriptive activity names and subject numbers to the dataset
-*  Delete unsed objects
-*  Read in the train dataset
-*  Add the column names, descriptive activity names and subject numbers to the dataset
-*  Delete unsed objects
-*  Combine the train and test data
-*  subset the mean, stdev, activity and subject columns from the dataset
-*  Summaries the subset by calculating the mean of the means and stdev
-*   It should be noted that it is not proper to calculate the mean of stdev as it is done here
-*
-
 ###Collection of the raw data
 * For specific information regarding the base study please refer to the following link:
 *  http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
@@ -45,7 +30,21 @@ The file runAnalysis.R script performs a data transformation per the guidelines 
 Running the runAnalysis.R file will take care of downloading the file, unzipping it and creating the tidy dataset.
 
 ###Cleaning of the data
-Short, high-level description of what the cleaning script does. [link to the readme document that describes the code in greater detail]()
+* Data processing performed by run_analysis.R:
+*  Download the samsung zipped data file if it is not present
+*  Unzip the file if the data directory does not exist
+*  Read in the test data set
+*  Add the column names, descriptive activity names and subject numbers to the dataset
+*  Delete unsed objects
+*  Read in the train dataset
+*  Add the column names, descriptive activity names and subject numbers to the dataset
+*  Delete unsed objects
+*  Combine the train and test data
+*  subset the mean, stdev, activity and subject columns from the dataset
+*  Summaries the subset by calculating the mean of the means and stdev
+*   It should be noted that it is not proper to calculate the mean of stdev as it is done here
+*
+
 
 ##Description of the variables in the tiny_data.txt file
 General description of the file including:
