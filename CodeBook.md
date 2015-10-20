@@ -12,7 +12,7 @@ The purpose of this project is to demonstrate an ability to collect, work with a
 is to prepare a tidy dataset that can be used for analysis.
 
 ##Study design and data processing
-* For specific information regarding the base study please refer to the following link
+* For specific information regarding the base study please refer to the following link:
 *  http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 * Data processing performed by run_analysis.R:
@@ -31,16 +31,18 @@ is to prepare a tidy dataset that can be used for analysis.
 *
 
 ###Collection of the raw data
-The data transformation by the runAnalysis.R script was obtained from:
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+* For specific information regarding the base study please refer to the following link:
+*  http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 ###Notes on the original (raw) data 
-Some additional notes (if avaialble, otherwise you can leave this section out).
+The original data can be obtained from here:
+* https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 ##Creating the tidy datafile
+The file runAnalysis.R script performs a data transformation per the guidelines of the project.
 
 ###Guide to create the tidy data file
-Description on how to create the tidy data file (1. download the data, ...)/
+Running the runAnalysis.R file will take care of downloading the file, unzipping it and creating the tidy dataset.
 
 ###Cleaning of the data
 Short, high-level description of what the cleaning script does. [link to the readme document that describes the code in greater detail]()
