@@ -27,18 +27,18 @@ is to prepare a tidy dataset that can be used for analysis.
 The file runAnalysis.R script performs a data transformation per the guidelines of the project.
 
 ###Guide to create the tidy data file
-Running the runAnalysis.R file will take care of downloading the file, unzipping it and creating the tidy dataset.
+Running the runAnalysis.R file will take care of downloading the file (if not present), unzipping it (if needed) and creating the tidy dataset.
 
 ###Cleaning of the data
 * Functions performed by run_analysis.R:
-    * Download the samsung zipped data file if it is not present
+    * Download the Samsung zipped data file if it is not present
     * Unzip the file if the data directory does not exist
     * Read in the test data set
     * Add the column names, descriptive activity names and subject numbers to the dataset
-    * Delete unsed objects
+    * Delete unused objects
     * Read in the train dataset
     * Add the column names, descriptive activity names and subject numbers to the dataset
-    * Delete unsed objects
+    * Delete unused objects
     * Combine the train and test data
     * subset the mean, stdev, activity and subject columns from the dataset
     * Summarize the subset by calculating the mean of the means and stdev
@@ -46,13 +46,15 @@ Running the runAnalysis.R file will take care of downloading the file, unzipping
 
 
 ##Description of the variables in the tidy_data.txt file
-* Contains 180 observations (summarized means by activity and subject
+* Contains 180 observations (summarized means by activity and subject)
     * 81 columns
         * Subject
         * Activity
-        * 79 summarized observations from the original data
+        * 79 summarized observations (Mean of means, Mean of stdev) from the original data where mean or stdev was in the column name
     * Summary of the data
+        * Using the embedded accelerometer and gyroscope in the Samsung S2, 3-axial linear acceleration and 3-axial angular velocity data were collected at a constant rate of 50Hz.
     * Variables present in the dataset
+        * For a description of the features in the dataset please see the file [feature_info.txt] (./DatasetDocs/feature_info.txt) 
     * There are 6 activities measured in the study
         * WALKING
         * WALKING_UPSTAIRS
@@ -64,8 +66,8 @@ Running the runAnalysis.R file will take care of downloading the file, unzipping
         * Ages 19-48
         * 30% were selected to be in the test data set
         * 70% were selected to be in the train data set
-        * For more infomration please see the projects [README.txt] (./DatasetDocs/README.txt) file here or download the dataset using the link above.
-* Please use the links provided above to review the details for the data collected.
+    * For more information please see the projects [README.txt] (./DatasetDocs/README.txt) file here or download the dataset using the link above.
+
 
 Some information on the variable including:
  - Class of the variable
@@ -74,5 +76,5 @@ Some information on the variable including:
  - In case names follow some schema, describe how entries were constructed (for example time-body-gyroscope-z has 4 levels of descriptors. Describe these 4 levels). 
 
 
-[Visit GitHub!](./)
+
 

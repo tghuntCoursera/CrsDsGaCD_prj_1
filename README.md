@@ -2,12 +2,15 @@
 Coursera Data Science, Getting and Cleaning Data project 1
 
 ##Contents
-* run_analysis.R
+* [run_analysis.R] (./run_analysis.R) 
 * README.md
-* Cookbook.md
+* [Cookbook.md] (./Cookbook.md) 
+* DatasetDocs/
+    * [feature_info.txt] (./DatasetDocs/feature_info.txt) 
+    * [README.txt] (./DatasetDocs/README.txt) 
 
 ##Purpose of this project
-* Creating the tidy_data.txt file which is a summarization of data collected from the Samsung SII:
+* Creating the tidy_data.txt file which summarizes the data collected from the Samsung SII:
     * Data processing performed by run_analysis.R:
         * Download the samsung zipped data file if it is not present
         * Unzip the file if the data directory does not exist
