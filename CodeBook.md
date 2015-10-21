@@ -66,14 +66,7 @@ Running the runAnalysis.R file will take care of downloading the file (if not pr
         * Ages 19-48
         * 30% were selected to be in the test data set
         * 70% were selected to be in the train data set
-    * For more information please see the projects [README.txt] (./DatasetDocs/README.txt) file here or download the dataset using the link above.
-
-
-Some information on the variable including:
- - Class of the variable
- - Unique values/levels of the variable
- - Unit of measurement (if no unit of measurement list this as well)
- - In case names follow some schema, describe how entries were constructed (for example time-body-gyroscope-z has 4 levels of descriptors. Describe these 4 levels). 
+    * For more information please see the projects [README.txt] (./DatasetDocs/README.txt) file or download the dataset using the link above.
 
 
 
