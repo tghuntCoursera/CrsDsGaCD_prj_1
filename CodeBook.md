@@ -1,5 +1,5 @@
 ---
-title: "Codebook for summarized samsung data"
+title: "Codebook for summarized Samsung data"
 author: "Thomas Hunt"
 ISO date: "2015/10/19"
 output:
@@ -46,13 +46,33 @@ Running the runAnalysis.R file will take care of downloading the file, unzipping
 
 
 ##Description of the variables in the tidy_data.txt file
-* Contains 180 observations (summarized means by activity (6) and subject (30)
+* Contains 180 observations (summarized means by activity and subject
     * 81 columns
         * Subject
         * Activity
         * 79 summarized observations from the original data
     * Summary of the data
     * Variables present in the dataset
+    * There are 6 activities measured in the study
+        * WALKING
+        * WALKING_UPSTAIRS
+        * WALKING_DOWNSTAIRS
+        * SITTING
+        * STANDING
+        * LAYING
+    * There are 30 subjects that took part in the study
+        * Ages 19-48
+        * 30% were selected to be in the test data set
+        * 70% were selected to be in the train data set
+        * For more infomration please see the projects [README.txt] (./DatasetDocs/README.txt) file here or download the dataset using the link above.
 * Please use the links provided above to review the details for the data collected.
 
+Some information on the variable including:
+ - Class of the variable
+ - Unique values/levels of the variable
+ - Unit of measurement (if no unit of measurement list this as well)
+ - In case names follow some schema, describe how entries were constructed (for example time-body-gyroscope-z has 4 levels of descriptors. Describe these 4 levels). 
+
+
+[Visit GitHub!](./)
 
