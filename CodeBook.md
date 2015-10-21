@@ -49,8 +49,11 @@ Running the runAnalysis.R file will take care of downloading the file (if not pr
 * Contains 180 observations (summarized means by activity and subject)
     * 81 columns
         * Subject
-        * Activity
+            *int
+        * Activities
+            *Factor w/ 6 levels 
         * 79 summarized observations (Mean of means, Mean of stdev) from the original data where mean or stdev was in the column name
+            * numeric
     * Summary of the data
         * Using the embedded accelerometer and gyroscope in the Samsung S2, 3-axial linear acceleration and 3-axial angular velocity data were collected at a constant rate of 50Hz.
     * Variables present in the dataset
@@ -67,7 +70,3 @@ Running the runAnalysis.R file will take care of downloading the file (if not pr
         * 30% were selected to be in the test data set
         * 70% were selected to be in the train data set
     * For more information please see the projects [README.txt] (./DatasetDocs/README.txt) file or download the dataset using the link above.
-
-
-
-
