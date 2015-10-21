@@ -54,7 +54,7 @@ Running the runAnalysis.R file will take care of downloading the file (if not pr
     * Summary of the data
         * Using the embedded accelerometer and gyroscope in the Samsung S2, 3-axial linear acceleration and 3-axial angular velocity data were collected at a constant rate of 50Hz.
     * Variables present in the dataset
-        * For a description of the features in the dataset please see the file [feature_info.txt] (./DatasetDocs/feature_info.txt) 
+        * For a description of the features in the dataset please see the file [features_info.txt] (./DatasetDocs/features_info.txt) 
     * There are 6 activities measured in the study
         * WALKING
         * WALKING_UPSTAIRS

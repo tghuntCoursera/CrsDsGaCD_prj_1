@@ -6,7 +6,7 @@ Coursera Data Science, Getting and Cleaning Data project 1
 * README.md
 * [Cookbook.md] (./Cookbook.md) 
 * DatasetDocs/
-    * [feature_info.txt] (./DatasetDocs/feature_info.txt) 
+    * [features_info.txt] (./DatasetDocs/features_info.txt) 
     * [README.txt] (./DatasetDocs/README.txt) 
 
 ##Purpose of this project
